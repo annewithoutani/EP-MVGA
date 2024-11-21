@@ -21,7 +21,7 @@ R = iResolution.xy; time = iTime; Mouse = iMouse;
 
 vec2 pos = gl_FragCoord.xy;
     ivec2 p = ivec2(pos);
-    // vec4 data = texel(ch0, pos);
+    vec4 data = texel(ch0, pos);
 
     
     particle P;

@@ -1,9 +1,9 @@
 CMakeFiles/Barycentric.dir/Barycentric.cpp.o: \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/Barycentric.cpp \
+ /home/mari/EP-MVGA/barycentric/Barycentric.cpp \
  /usr/include/stdc-predef.h \
- /home/helton/SPH/LearnOpenGL/includes/glad/glad.h \
+ /home/mari/EP-MVGA/barycentric/includes/glad/glad.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/KHR/khrplatform.h \
+ /home/mari/EP-MVGA/barycentric/includes/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -21,8 +21,8 @@ CMakeFiles/Barycentric.dir/Barycentric.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
  /usr/include/inttypes.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/glm.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/_fixes.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/glm.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/_fixes.hpp \
  /usr/include/c++/13/cmath /usr/include/c++/13/bits/requires_hosted.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
@@ -94,10 +94,10 @@ CMakeFiles/Barycentric.dir/Barycentric.cpp.o: \
  /usr/include/c++/13/tr1/poly_hermite.tcc \
  /usr/include/c++/13/tr1/poly_laguerre.tcc \
  /usr/include/c++/13/tr1/riemann_zeta.tcc \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/setup.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/setup.hpp \
  /usr/include/c++/13/cassert /usr/include/assert.h \
  /usr/include/c++/13/cstddef \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/../simd/platform.h \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/../simd/platform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
@@ -114,136 +114,136 @@ CMakeFiles/Barycentric.dir/Barycentric.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
  /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/13/cfloat \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/fwd.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/qualifier.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/setup.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/vec2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_bool2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_vec2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_vec2.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/./compute_vector_relational.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/./setup.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_bool2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_float2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_float2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_double2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_double2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_int2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_int2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_uint2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_uint2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/vec3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_bool3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_vec3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_vec3.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_bool3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_float3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_float3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_double3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_double3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_int3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_int3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_uint3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_uint3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/vec4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_bool4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_vec4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_vec4.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_vec4_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_bool4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_float4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_float4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_double4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_double4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/setup.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_int4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_int4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_uint4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/vector_uint4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/mat2x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/matrix_double2x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_mat2x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/type_mat2x2.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../matrix.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/setup.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat2x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat2x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat3x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat3x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat3x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat4x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat4x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../mat4x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x4_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/func_matrix.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../geometric.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/func_geometric.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../exponential.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_exponential.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../detail/setup.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_exponential_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../simd/exponential.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../common.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/_fixes.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_common.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/compute_common.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/setup.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_common_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../simd/common.h \
+ /home/mari/EP-MVGA/barycentric/includes/glm/fwd.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/qualifier.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/setup.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/vec2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_bool2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_vec2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_vec2.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/./compute_vector_relational.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/./setup.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_bool2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_float2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_float2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_double2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_double2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_int2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_int2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_uint2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_uint2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/vec3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_bool3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_vec3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_vec3.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_bool3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_float3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_float3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_double3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_double3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_int3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_int3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_uint3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_uint3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/vec4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_bool4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_vec4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_vec4.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_vec4_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_bool4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_float4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_float4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_double4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_double4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/setup.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_int4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_int4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_uint4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/vector_uint4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/mat2x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/matrix_double2x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_mat2x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/type_mat2x2.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../matrix.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/setup.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat2x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x3.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat2x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat2x4.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double2x4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float2x4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat3x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x2.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat3x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x3.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat3x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat3x4.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double3x4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float3x4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat4x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x2.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat4x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x3.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x3.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x3_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../mat4x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x4.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/../detail/type_mat4x4_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_double4x4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x4.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/.././ext/matrix_float4x4_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/func_matrix.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../geometric.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/func_geometric.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../exponential.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/type_vec1.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_exponential.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../vector_relational.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../detail/setup.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../detail/func_vector_relational_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/_vectorize.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_exponential_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../simd/exponential.h \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../common.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/_fixes.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_common.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/compute_common.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/setup.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/func_common_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../detail/../simd/common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
@@ -334,29 +334,28 @@ CMakeFiles/Barycentric.dir/Barycentric.cpp.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/func_geometric_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../detail/../simd/geometric.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/func_matrix_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/../detail/../detail/../simd/matrix.h \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/func_geometric_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../detail/../simd/geometric.h \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/func_matrix_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/../detail/../detail/../simd/matrix.h \
  /usr/include/c++/13/cstring /usr/include/string.h /usr/include/strings.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/matrix_double2x2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/matrix_float2x2.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/./ext/matrix_float2x2_precision.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/trigonometric.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/func_trigonometric.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/func_trigonometric_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/packing.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/func_packing.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/type_half.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/type_half.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/func_packing_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/integer.hpp \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/func_integer.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/func_integer_simd.inl \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/glm/detail/../simd/integer.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/GLFW/glfw3.h \
- /usr/include/GL/gl.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/Shader.h \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/matrix_double2x2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/matrix_float2x2.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/./ext/matrix_float2x2_precision.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/trigonometric.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/func_trigonometric.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/func_trigonometric_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/packing.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/func_packing.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/type_half.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/type_half.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/func_packing_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/integer.hpp \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/func_integer.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/func_integer_simd.inl \
+ /home/mari/EP-MVGA/barycentric/includes/glm/detail/../simd/integer.h \
+ /home/mari/EP-MVGA/barycentric/includes/GLFW/glfw3.h \
+ /usr/include/GL/gl.h /home/mari/EP-MVGA/barycentric/Shader.h \
  /usr/include/c++/13/string /usr/include/c++/13/bits/stringfwd.h \
  /usr/include/c++/13/bits/memoryfwd.h \
  /usr/include/c++/13/bits/char_traits.h \
@@ -446,9 +445,9 @@ CMakeFiles/Barycentric.dir/Barycentric.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h \
  /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/sstream \
  /usr/include/c++/13/bits/sstream.tcc /usr/include/c++/13/iostream \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/stb_image/stb_image.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/learnopengl/filesystem.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/configuration/root_directory.h \
+ /home/mari/EP-MVGA/barycentric/stb_image/stb_image.h \
+ /home/mari/EP-MVGA/barycentric/includes/learnopengl/filesystem.h \
+ /home/mari/EP-MVGA/barycentric/build/configuration/root_directory.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \

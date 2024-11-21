@@ -14,10 +14,10 @@ void main()
 {
 
 R = iResolution.xy; time = iTime; Mouse = iMouse;
-//Mouse.x=(1.0+iMouse.x)*0.5*iResolution.x;
-//Mouse.y=(1.0-iMouse.y)*0.5*iResolution.y;
+Mouse.x=(1.0+iMouse.x)*0.5*iResolution.x;
+Mouse.y=(1.0-iMouse.y)*0.5*iResolution.y;
 vec2 pos = gl_FragCoord.xy;
-    //ivec2 p = ivec2(pos);
+    ivec2 p = ivec2(pos);
 
     vec4 data = texel(ch0, pos);
     particle P = getParticle(data, pos);

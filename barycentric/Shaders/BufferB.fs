@@ -1,8 +1,8 @@
 
 
 
-//out vec4 FragColor;
-//uniform vec2 iResolution;
+out vec4 FragColor;
+uniform vec2 iResolution;
 uniform sampler2D iChannel0;
 uniform sampler2D iChannel1;
 uniform sampler2D iChannel2;
@@ -16,15 +16,15 @@ uniform bool inflow;
 void main()
 {
 R = iResolution.xy; time = iTime; Mouse = iMouse;
-    //Mouse.x=(1.0+iMouse.x)*0.5*iResolution.x;
-    //Mouse.y=(1.0-iMouse.y)*0.5*iResolution.y;
+    Mouse.x=(1.0+iMouse.x)*0.5*iResolution.x;
+    Mouse.y=(1.0-iMouse.y)*0.5*iResolution.y;
     vec2 pos = gl_FragCoord.xy;
     ivec2 p = ivec2(pos);
         
     vec4 data = texel(ch0, pos);
     
     particle P = getParticle(data, pos);
-    //P.X=pos;
+    P.X=pos;
     
     if(P.M.x != 0.) //not vacuum
     {

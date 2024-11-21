@@ -1,7 +1,7 @@
 CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o: \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/stb_image/stb_image.cpp \
+ /home/mari/EP-MVGA/barycentric/stb_image/stb_image.cpp \
  /usr/include/stdc-predef.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/stb_image/stb_image.h \
+ /home/mari/EP-MVGA/barycentric/stb_image/stb_image.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \

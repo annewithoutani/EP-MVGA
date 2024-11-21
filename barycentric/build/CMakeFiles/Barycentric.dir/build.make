@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/helton/SPH/LearnOpenGL/src/Shader/barycentric
+CMAKE_SOURCE_DIR = /home/mari/EP-MVGA/barycentric
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build
+CMAKE_BINARY_DIR = /home/mari/EP-MVGA/barycentric/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Barycentric.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/Barycentric.dir/progress.make
 include CMakeFiles/Barycentric.dir/flags.make
 
 CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o: CMakeFiles/Barycentric.dir/flags.make
-CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o: /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/stb_image/stb_image.cpp
+CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o: /home/mari/EP-MVGA/barycentric/stb_image/stb_image.cpp
 CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o: CMakeFiles/Barycentric.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o -MF CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o.d -o CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o -c /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/stb_image/stb_image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mari/EP-MVGA/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o -MF CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o.d -o CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.o -c /home/mari/EP-MVGA/barycentric/stb_image/stb_image.cpp
 
 CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/stb_image/stb_image.cpp > CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mari/EP-MVGA/barycentric/stb_image/stb_image.cpp > CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.i
 
 CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/stb_image/stb_image.cpp -o CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mari/EP-MVGA/barycentric/stb_image/stb_image.cpp -o CMakeFiles/Barycentric.dir/stb_image/stb_image.cpp.s
 
 CMakeFiles/Barycentric.dir/glad.c.o: CMakeFiles/Barycentric.dir/flags.make
-CMakeFiles/Barycentric.dir/glad.c.o: /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/glad.c
+CMakeFiles/Barycentric.dir/glad.c.o: /home/mari/EP-MVGA/barycentric/glad.c
 CMakeFiles/Barycentric.dir/glad.c.o: CMakeFiles/Barycentric.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Barycentric.dir/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Barycentric.dir/glad.c.o -MF CMakeFiles/Barycentric.dir/glad.c.o.d -o CMakeFiles/Barycentric.dir/glad.c.o -c /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mari/EP-MVGA/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Barycentric.dir/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Barycentric.dir/glad.c.o -MF CMakeFiles/Barycentric.dir/glad.c.o.d -o CMakeFiles/Barycentric.dir/glad.c.o -c /home/mari/EP-MVGA/barycentric/glad.c
 
 CMakeFiles/Barycentric.dir/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Barycentric.dir/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/glad.c > CMakeFiles/Barycentric.dir/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mari/EP-MVGA/barycentric/glad.c > CMakeFiles/Barycentric.dir/glad.c.i
 
 CMakeFiles/Barycentric.dir/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Barycentric.dir/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/glad.c -o CMakeFiles/Barycentric.dir/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mari/EP-MVGA/barycentric/glad.c -o CMakeFiles/Barycentric.dir/glad.c.s
 
 CMakeFiles/Barycentric.dir/Barycentric.cpp.o: CMakeFiles/Barycentric.dir/flags.make
-CMakeFiles/Barycentric.dir/Barycentric.cpp.o: /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/Barycentric.cpp
+CMakeFiles/Barycentric.dir/Barycentric.cpp.o: /home/mari/EP-MVGA/barycentric/Barycentric.cpp
 CMakeFiles/Barycentric.dir/Barycentric.cpp.o: CMakeFiles/Barycentric.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Barycentric.dir/Barycentric.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Barycentric.dir/Barycentric.cpp.o -MF CMakeFiles/Barycentric.dir/Barycentric.cpp.o.d -o CMakeFiles/Barycentric.dir/Barycentric.cpp.o -c /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/Barycentric.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/mari/EP-MVGA/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Barycentric.dir/Barycentric.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Barycentric.dir/Barycentric.cpp.o -MF CMakeFiles/Barycentric.dir/Barycentric.cpp.o.d -o CMakeFiles/Barycentric.dir/Barycentric.cpp.o -c /home/mari/EP-MVGA/barycentric/Barycentric.cpp
 
 CMakeFiles/Barycentric.dir/Barycentric.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Barycentric.dir/Barycentric.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/Barycentric.cpp > CMakeFiles/Barycentric.dir/Barycentric.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mari/EP-MVGA/barycentric/Barycentric.cpp > CMakeFiles/Barycentric.dir/Barycentric.cpp.i
 
 CMakeFiles/Barycentric.dir/Barycentric.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Barycentric.dir/Barycentric.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/Barycentric.cpp -o CMakeFiles/Barycentric.dir/Barycentric.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mari/EP-MVGA/barycentric/Barycentric.cpp -o CMakeFiles/Barycentric.dir/Barycentric.cpp.s
 
 # Object files for target Barycentric
 Barycentric_OBJECTS = \
@@ -125,7 +125,7 @@ Barycentric: CMakeFiles/Barycentric.dir/glad.c.o
 Barycentric: CMakeFiles/Barycentric.dir/Barycentric.cpp.o
 Barycentric: CMakeFiles/Barycentric.dir/build.make
 Barycentric: CMakeFiles/Barycentric.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Barycentric"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/mari/EP-MVGA/barycentric/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Barycentric"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Barycentric.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/Barycentric.dir/clean:
 .PHONY : CMakeFiles/Barycentric.dir/clean
 
 CMakeFiles/Barycentric.dir/depend:
-	cd /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/helton/SPH/LearnOpenGL/src/Shader/barycentric /home/helton/SPH/LearnOpenGL/src/Shader/barycentric /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/CMakeFiles/Barycentric.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/mari/EP-MVGA/barycentric/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mari/EP-MVGA/barycentric /home/mari/EP-MVGA/barycentric /home/mari/EP-MVGA/barycentric/build /home/mari/EP-MVGA/barycentric/build /home/mari/EP-MVGA/barycentric/build/CMakeFiles/Barycentric.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Barycentric.dir/depend
 

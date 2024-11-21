@@ -1,6 +1,6 @@
 CMakeFiles/Barycentric.dir/glad.c.o: \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/glad.c \
- /usr/include/stdc-predef.h /usr/include/stdio.h \
+ /home/mari/EP-MVGA/barycentric/glad.c /usr/include/stdc-predef.h \
+ /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -51,8 +51,9 @@ CMakeFiles/Barycentric.dir/glad.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /home/helton/SPH/LearnOpenGL/includes/glad/glad.h \
- /home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes/KHR/khrplatform.h \
+ /usr/include/strings.h \
+ /home/mari/EP-MVGA/barycentric/includes/glad/glad.h \
+ /home/mari/EP-MVGA/barycentric/includes/KHR/khrplatform.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \

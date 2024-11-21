@@ -126,7 +126,7 @@ void main()
              mc = (iMouse.xy    / iResolution.xy * 2. - 1.) * vec2(ar, 1.);
 
 
-   /* vec2 a = vec2( .73,  .75);
+    vec2 a = vec2( .73,  .75);
     vec2 b = vec2(-.85,  .15);
     vec2 c = vec2( .25, -.75);
     vec3 barycoords;
@@ -153,7 +153,7 @@ void main()
           color = vec3(0.0, 0.0, 1.0);
 
     vec3 col = l > 0. ? ( vec3(1)-color) : (t1 ? r : (t0 ? COL3+color : COL2-color));
-*/
+
         vec3 c1=vec3(1.0,0.4,0.1);
         vec3 c2=vec3(1.0,0.8,0.1);
         vec2 p =gl_FragCoord.xy/iResolution.xy;

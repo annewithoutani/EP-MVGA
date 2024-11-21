@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/CMakeLists.txt"
+  "/home/mari/EP-MVGA/barycentric/CMakeLists.txt"
   "CMakeFiles/3.28.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.28.3/CMakeSystem.cmake"
-  "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/configuration/root_directory.h.in"
+  "/home/mari/EP-MVGA/barycentric/configuration/root_directory.h.in"
   "/usr/share/cmake-3.28/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.28/Modules/CMakeCInformation.cmake"
