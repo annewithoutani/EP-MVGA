@@ -11,7 +11,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build"
+			"value" : "/home/mari/EP-MVGA/barycentric/build"
 		},
 		{
 			"name" : "Barycentric_IS_TOP_LEVEL",
@@ -35,7 +35,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric"
+			"value" : "/home/mari/EP-MVGA/barycentric"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build"
+			"value" : "/home/mari/EP-MVGA/barycentric/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -583,7 +583,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/CMakeFiles/pkgRedirects"
+			"value" : "/home/mari/EP-MVGA/barycentric/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric"
+			"value" : "/home/mari/EP-MVGA/barycentric"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",

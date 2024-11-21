@@ -1,1 +1,1 @@
-const char * logl_root = "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric";
+const char * logl_root = "/home/mari/EP-MVGA/barycentric";

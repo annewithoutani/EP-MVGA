@@ -771,8 +771,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build",
-		"source" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric"
+		"build" : "/home/mari/EP-MVGA/barycentric/build",
+		"source" : "/home/mari/EP-MVGA/barycentric"
 	},
 	"version" : 
 	{

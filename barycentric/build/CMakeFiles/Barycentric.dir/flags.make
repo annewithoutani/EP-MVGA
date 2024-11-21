@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/configuration -I/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes
+C_INCLUDES = -I/home/mari/EP-MVGA/barycentric/build/configuration -I/home/mari/EP-MVGA/barycentric/includes
 
 C_FLAGS = 
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/configuration -I/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes
+CXX_INCLUDES = -I/home/mari/EP-MVGA/barycentric/build/configuration -I/home/mari/EP-MVGA/barycentric/includes
 
 CXX_FLAGS = -std=gnu++17
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/helton/SPH/LearnOpenGL/src/Shader/barycentric
+# Install script for directory: /home/mari/EP-MVGA/barycentric
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mari/EP-MVGA/barycentric/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

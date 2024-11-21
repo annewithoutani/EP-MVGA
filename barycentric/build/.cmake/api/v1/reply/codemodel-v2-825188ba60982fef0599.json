@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Barycentric::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Barycentric-cc922d701b856fcd631e.json",
+					"jsonFile" : "target-Barycentric-e08fef1c45f9a1085c57.json",
 					"name" : "Barycentric",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build",
-		"source" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric"
+		"build" : "/home/mari/EP-MVGA/barycentric/build",
+		"source" : "/home/mari/EP-MVGA/barycentric"
 	},
 	"version" : 
 	{

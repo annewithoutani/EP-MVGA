@@ -62,11 +62,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/configuration"
+					"path" : "/home/mari/EP-MVGA/barycentric/build/configuration"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes"
+					"path" : "/home/mari/EP-MVGA/barycentric/includes"
 				}
 			],
 			"language" : "CXX",
@@ -89,11 +89,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/build/configuration"
+					"path" : "/home/mari/EP-MVGA/barycentric/build/configuration"
 				},
 				{
 					"backtrace" : 4,
-					"path" : "/home/helton/SPH/LearnOpenGL/src/Shader/barycentric/includes"
+					"path" : "/home/mari/EP-MVGA/barycentric/includes"
 				}
 			],
 			"language" : "C",

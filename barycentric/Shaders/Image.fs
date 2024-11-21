@@ -11,9 +11,7 @@ uniform vec4 iMouse;
 #define COL2 vec3(.96, .66, .13)
 #define COL3 vec3(0.0)
 #define COL4 vec3(0.99,0.1,0.09)
-
-
-
+ 
 
 /*  Install  Istructions
 
@@ -72,30 +70,53 @@ float sharpen(in float d, in float w)
     return 1. - smoothstep(-e, e, d - w);
 }
 
-vec3 bary(in vec3 a, in vec3 b, in vec3 c, in vec3 p)
+vec3 bary(in vec2 a, in vec2 b, in vec2 c, in vec2 p)
 {
-    return vec3(0.333);
+    float denominator = ((b.x*c.y - c.x*b.y) + (b.y - c.y)*a.x + (c.x - b.x)*a.y);
+    float baryA = ((b.x*c.y - c.x*b.y) + (b.y - c.y)*p.x + (c.x - b.x)*p.y) / denominator;
+    float baryB = ((c.x*a.y - a.x*c.y) + (c.y - a.y)*p.x + (a.x - c.x)*p.y) / denominator;
+    float baryC = ((a.x*b.y - b.x*a.y) + (a.y - b.y)*p.x + (b.x - a.x)*p.y) / denominator;
+    
+    return vec3(baryA, baryB, baryC);
 }
 
 bool test(in vec2 a, in vec2 b, in vec2 c, in vec2 p, inout vec3 barycoords)
 {
-    barycoords = bary(vec3(a.x, 0., a.y),
-                  vec3(b.x, 0., b.y),
-                  vec3(c.x, 0., c.y),
-                  vec3(p.x, 0., p.y));
+    barycoords = bary(vec2(a.x, a.y),
+                      vec2(b.x, b.y),
+                      vec2(c.x, c.y),
+                      vec2(p.x, p.y));
 
     return barycoords.x > 0. && barycoords.y > 0. && barycoords.z > 0.;
 }
 
+int get_section(in vec2 a, in vec2 b, in vec2 c, in vec2 p) {
+    vec3 barycoords = bary(vec2(a.x, a.y),
+                           vec2(b.x, b.y),
+                           vec2(c.x, c.y),
+                           vec2(p.x, p.y));
+    if(!(barycoords.x < 0 || barycoords.y < 0 || barycoords.z < 0))
+        return 0; //dentro do triangulo
+    if(!(barycoords.x < 0 || barycoords.y < 0) && barycoords.z < 0)
+        return 1; //fora ab
+    if(!(barycoords.x < 0 || barycoords.z < 0) && barycoords.y < 0)
+        return 2; //fora ac
+    if(!(barycoords.y < 0 || barycoords.z < 0) && barycoords.x < 0)
+        return 3; //fora bc
+    if(!(barycoords.x < 0) && barycoords.y < 0 && barycoords.z < 0)
+        return 4; //fora a
+    if(!(barycoords.y < 0) && barycoords.z < 0 && barycoords.x < 0)
+        return 5; //fora b
+    if(!(barycoords.z < 0) && barycoords.y < 0 && barycoords.x < 0)
+        return 6; //fora c
+}
 
 float df_bounds(in vec2 uv, in vec2 p, in vec2 a, in vec2 b, in vec2 c, in vec3 barycoords)
 {
     float cp = 0.;
 
 
-float c0 = sharpen(df_circ(uv, p,
-                   (.03 + cos(15.*iTime) *.01))
-                   , EPS * 1.);
+    float c0 = sharpen(df_circ(uv, p, (.03 + cos(15.*iTime) *.01)), EPS * 1.);
 
 
     return cp;
@@ -120,41 +141,51 @@ float dist_01(vec2 p,float r)
 void main()
 {
     float ar = iResolution.x / iResolution.y;
-        vec2 mc=vec2(0.0);
+        vec2 mc=vec2(0.0); //coordensdss do mouse
         vec2 uv = (gl_FragCoord.xy / iResolution.xy * 2. - 1.) * vec2(ar, 1.);
-            if(iMouse.z==1.0)
-             mc = (iMouse.xy    / iResolution.xy * 2. - 1.) * vec2(ar, 1.);
+        //coordenada normalizada do pixel
+        mc = (iMouse.xy    / iResolution.xy * 2. - 1.) * vec2(ar, 1.);
+        //mc fica normalizada
 
-
-   /* vec2 a = vec2( .73,  .75);
-    vec2 b = vec2(-.85,  .15);
-    vec2 c = vec2( .25, -.75);
+    vec2 a = vec2( .73,  .75); //vermelho
+    vec2 b = vec2(-.85,  .15); //verde
+    vec2 c = vec2( .25, -.75); //amarelo
     vec3 barycoords;
 
-    bool t0 = test(a, b, c, mc,barycoords);
-     float l = 0.1;//df_bounds(uv, mc, a, b, c,barycoords);
+    bool t0 = test(a, b, c, mc, barycoords);
+    float l = 0.1;
+    //df_bounds(uv, mc, a, b, c, barycoords);
 
-    bool t1 = test(a, b, c, uv,barycoords);
-    vec3 r = globalColor(uv,a,b,c);
+    bool t1 = test(a, b, c, uv, barycoords);
+    vec3 r = globalColor(uv, a, b, c);
     bool testcc = false;//t1;
     vec3 color=vec3(0.0);
     // Visual debug lines and points.
-       if (line(uv, a, b))
-           color = vec3(1.0, 1.0, 0.0);
-       if (line(uv, b, c))
-           color = vec3(1.0, 0.0, 1.0);
-       if (line(uv, c, a))
-           color = vec3(0.0, 1.0, 1.0);
-       if (df_circ(uv, a,EPS)<0.5*EPS)
-          color = vec3(0.0, 1.0, 0.0);
-      if (df_circ(uv, b,EPS)<0.5*EPS)
-          color = vec3(1.0, 0.0, 0.0);
-      if (df_circ(uv, c,EPS)<0.5*EPS)
-          color = vec3(0.0, 0.0, 1.0);
+    if (line(uv, a, b))
+        color = vec3(1.0, 1.0, 0.0); //lado ab (azul)
+    if (line(uv, b, c))
+        color = vec3(1.0, 0.0, 1.0); //lado bc (verde)
+    if (line(uv, c, a))
+        color = vec3(0.0, 1.0, 1.0); //lado ac (vermelho)
+    if (df_circ(uv, a, EPS)<0.5*EPS) 
+        color = vec3(0.0, 1.0, 0.0); //ponto a (magenta)
+    if (df_circ(uv, b, EPS)<0.5*EPS)
+        color = vec3(1.0, 0.0, 0.0); //ponto b (ciano)
+    if (df_circ(uv, c, EPS)<0.5*EPS)
+        color = vec3(0.0, 0.0, 1.0); //ponto c (amarelo)
+
+    //if(!(barycoords.x < 0 || barycoords.y < 0 || barycoords.z < 0)) {
+    //    color = vec3(barycoords.x, barycoords.y, barycoords.z);
+    //}
+    int ms = get_section(a, b, c, mc);
+    int ps = get_section(a, b, c, uv);
+
+    if(ms == ps)
+        color = vec3(0.0, 1.0, 0.5);
 
     vec3 col = l > 0. ? ( vec3(1)-color) : (t1 ? r : (t0 ? COL3+color : COL2-color));
-*/
-        vec3 c1=vec3(1.0,0.4,0.1);
+
+        /*vec3 c1=vec3(1.0,0.4,0.1);
         vec3 c2=vec3(1.0,0.8,0.1);
         vec2 p =gl_FragCoord.xy/iResolution.xy;
         p.x*=iResolution.x/iResolution.y;
@@ -174,9 +205,9 @@ void main()
         r+=0.002*cos(q.y*150);
         r+=exp(-40.0*p.y);
         col*=1.0-(1.0-smoothstep(r,r+EPS,abs(q.x-0.075*sin(q.y*3.0))))*(1.0-smoothstep(0.0,0.1,q.y));
+        */
 
 
-
-        float f= 0.1+smoothstep(0,0.6,0.6-x.y);
-        gl_FragColor = vec4(col*f, 1);
+        // float f= 0.1+smoothstep(0,0.6,0.6-x.y);
+        gl_FragColor = vec4(col, 1);
 }
