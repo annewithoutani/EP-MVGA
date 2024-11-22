@@ -42,7 +42,7 @@ vec2 intersect (vec2 p, vec2 a, vec2 b)
 
 
 // Visual line for debugging purposes.
-bool line (vec2 p, vec2 a, vec2 b)
+bool line (vec2 p, vec2 a, vec2 b, float width)
 {
     // Direction from a to b.
     vec2 ab = normalize(b - a);
@@ -54,7 +54,7 @@ bool line (vec2 p, vec2 a, vec2 b)
     // from a to b, calculate the distance between the
     // pixel and the intersection point, then compare
     // that distance to the line width.
-    return length((a + ab * dot(ab, ap)) - p) < 0.0025;
+    return length((a + ab * dot(ab, ap)) - p) < width;
 }
 
 float df_line(in vec2 p, in vec2 a, in vec2 b)
@@ -155,24 +155,18 @@ void main()
     bool t0 = test(a, b, c, mc, barycoords);
     float l = 0.1;
     //df_bounds(uv, mc, a, b, c, barycoords);
+    
+    float baseWidth = 0.0025;
+    float widthBC = barycoords.x >= 0 ? baseWidth : baseWidth - barycoords.x/10; 
+    float widthCA = barycoords.y >= 0 ? baseWidth : baseWidth - barycoords.y/10; 
+    float widthAB = barycoords.z >= 0 ? baseWidth : baseWidth - barycoords.z/10; 
 
     bool t1 = test(a, b, c, uv, barycoords);
     vec3 r = globalColor(uv, a, b, c);
     bool testcc = false;//t1;
     vec3 color=vec3(0.0);
-    // Visual debug lines and points.
-    if (line(uv, a, b))
-        color = vec3(1.0, 1.0, 0.0); //lado ab (azul)
-    if (line(uv, b, c))
-        color = vec3(1.0, 0.0, 1.0); //lado bc (verde)
-    if (line(uv, c, a))
-        color = vec3(0.0, 1.0, 1.0); //lado ac (vermelho)
-    if (df_circ(uv, a, EPS)<0.5*EPS) 
-        color = vec3(0.0, 1.0, 0.0); //ponto a (magenta)
-    if (df_circ(uv, b, EPS)<0.5*EPS)
-        color = vec3(1.0, 0.0, 0.0); //ponto b (ciano)
-    if (df_circ(uv, c, EPS)<0.5*EPS)
-        color = vec3(0.0, 0.0, 1.0); //ponto c (amarelo)
+
+
 
     //if(!(barycoords.x < 0 || barycoords.y < 0 || barycoords.z < 0)) {
     //    color = vec3(barycoords.x, barycoords.y, barycoords.z);
@@ -185,17 +179,31 @@ void main()
         if(ms == 0)
             color = vec3(barycoords.x, barycoords.y, barycoords.z);
         else if(ms == 1)
-            color = vec3(1.0, 0.8, 0.0);
+            color = vec3(0.7, 0.55, 0.0);
         else if(ms == 2)
-            color = vec3(0.0, 1.0, 1.0);
+            color = vec3(0.0, 0.7, 0.7);
         else if(ms == 3)
-            color = vec3(1.0, 0.0, 0.8);
+            color = vec3(0.7, 0.0, 0.55);
         else if(ms == 4)
-            color = vec3(0.0, 1.0, 0.0);
+            color = vec3(0.0, 0.8, 0.0);
         else if(ms == 5)
-            color = vec3(1.0, 0.0, 0.0);
+            color = vec3(0.8, 0.0, 0.0);
         else if(ms == 6)
-            color = vec3(0.0, 0.0, 1.0);
+            color = vec3(0.0, 0.0, 0.8);
+    
+    // Visual debug lines and points.
+    if (line(uv, a, b, widthAB))
+        color = vec3(1.0, 1.0, 0.0); //lado ab (azul)
+    if (line(uv, b, c, widthBC))
+        color = vec3(1.0, 0.0, 1.0); //lado bc (verde)
+    if (line(uv, c, a, widthCA))
+        color = vec3(0.0, 1.0, 1.0); //lado ac (vermelho)
+    //if (df_circ(uv, a, EPS)<0.5*EPS) 
+    //    color = vec3(0.0, 1.0, 0.0); //ponto a (magenta)
+    //if (df_circ(uv, b, EPS)<0.5*EPS)
+    //    color = vec3(1.0, 0.0, 0.0); //ponto b (ciano)
+    //if (df_circ(uv, c, EPS)<0.5*EPS)
+    //    color = vec3(0.0, 0.0, 1.0); //ponto c (amarelo)
 
     vec3 col = l > 0. ? ( vec3(1)-color) : (t1 ? r : (t0 ? COL3+color : COL2-color));
 
