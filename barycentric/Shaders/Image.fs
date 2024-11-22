@@ -177,11 +177,25 @@ void main()
     //if(!(barycoords.x < 0 || barycoords.y < 0 || barycoords.z < 0)) {
     //    color = vec3(barycoords.x, barycoords.y, barycoords.z);
     //}
+    
     int ms = get_section(a, b, c, mc);
     int ps = get_section(a, b, c, uv);
 
     if(ms == ps)
-        color = vec3(0.0, 1.0, 0.5);
+        if(ms == 0)
+            color = vec3(barycoords.x, barycoords.y, barycoords.z);
+        else if(ms == 1)
+            color = vec3(1.0, 0.8, 0.0);
+        else if(ms == 2)
+            color = vec3(0.0, 1.0, 1.0);
+        else if(ms == 3)
+            color = vec3(1.0, 0.0, 0.8);
+        else if(ms == 4)
+            color = vec3(0.0, 1.0, 0.0);
+        else if(ms == 5)
+            color = vec3(1.0, 0.0, 0.0);
+        else if(ms == 6)
+            color = vec3(0.0, 0.0, 1.0);
 
     vec3 col = l > 0. ? ( vec3(1)-color) : (t1 ? r : (t0 ? COL3+color : COL2-color));
 
